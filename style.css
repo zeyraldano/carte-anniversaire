@@ -1,0 +1,67 @@
+.carre {
+
+  /*Mettre le carré au centre*/
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Met les éléments les uns sous les autres */
+  justify-content: center;
+  /*Pour centrer le carré*/
+  margin: 0 auto;
+
+/*paramètre texte*/
+  color :rgb(255, 255, 255);
+  font-family: "Pacifico", cursive;
+
+  /* Pour pas que ce qui se trouve à l'intérieur
+   du carré ne touche les bordures */
+  padding: 1em;
+
+  /* Bordure du carré */
+  border: 0.2em solid rgb(14, 0, 14);
+
+  /* Assurons-nous que la boîte soit carrée
+     pour obtenir un cercle bien rond plutôt
+     qu'une ellipse ;) */
+  width: 25em;
+  height: 25em;
+
+
+  /* Enfin, transformons le carré en cercle */
+  border-radius: Opx;
+
+  /*Fond de couleur*/
+  background-color:rgb(255, 186, 209);
+
+
+    width: 300px;
+    height: 300px;
+
+    background-image: url("images/heart2anime.gif");
+    background-repeat: repeat;      /* Répète le petit cœur */
+    background-size: 32px 32px;     /* Taille d'une "case" */
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+.voeux {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 20px;
+  font-style: normal;
+  color: green;
+}
+
+.age {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 20px;
+  font-style: normal;
+  color: green;
+}
+
+
+
